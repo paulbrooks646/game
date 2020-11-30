@@ -1,35 +1,36 @@
- * {
-     box-sizing: border-box;
-     padding: 0px;
-     margin: 0px;
- }
- 
- 
- 
- .dashboard-main {
-    height: 100vh;
- 
-    overflow: hidden;
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.dashboard-main {
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
 }
 
 .dashboard-title {
-    height: 10vh;
+  height: 10vh;
 }
 .dashboard-subtitle {
-    height: 10vh;
+  height: 10vh;
 }
 
-
- .dashboard-characters {
+.dashboard-characters {
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
+  height: 80vh;
   align-items: center;
-
+  border: solid;
 }
 
-/*.dashboard-character {
-    width: 25%;
-    border: solid;
-    height: 250px;
-} */
+.dashboard-character {
+  width: 250px;
+  border: solid;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
