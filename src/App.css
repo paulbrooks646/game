@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
+
+.app-main {
+
+    height: 100vh;
+   
+}
 
 

@@ -4,7 +4,7 @@ import Dashboard from "./components/Dashboard"
 
 function App() {
   return (
-    <div style={{ height: "100vh"}}>
+    <div className="app-main">
       <Dashboard/>
     </div>
   );
