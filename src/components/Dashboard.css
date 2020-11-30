@@ -23,7 +23,6 @@
   width: 100vw;
   height: 80vh;
   align-items: center;
-  border: solid;
 }
 
 .dashboard-character {
@@ -33,4 +32,8 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+}
+
+.character-type {
+    margin-bottom: 5px;
 }
