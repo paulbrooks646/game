@@ -8,6 +8,7 @@
   height: 100vh;
   text-align: center;
   overflow: hidden;
+  background-color: #f8f8ff;
 }
 
 .dashboard-title {
